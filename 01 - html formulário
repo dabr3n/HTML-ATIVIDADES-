@@ -1,0 +1,14 @@
+<HTML> 
+<head>
+ <title> Formulário </title> 
+
+</head>
+<body><form>
+Seu Nome: <input type = "name" placeholder="Digite Seu nome" ><br/>
+Seu Telefone: <input type = "number" placeholder="Digite seu telefone" ><br/> 
+Seu Email: <input type = "text" placeholder="Digite seu email"> </br>
+Deseja receber nossas novidades? </br> 
+<input type = "button" value = "sim">
+<input type = "button" value = "não"></br>
+<input type = "button" value = "enviar"
+</form></body> 
