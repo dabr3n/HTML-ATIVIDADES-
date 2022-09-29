@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<head>
+    <title> Formulário</title>
+
+ </head>
+ <body>
+ 	<form>
+ 		<ul>
+ 			
+ 		
+<li>Nome:<input type="text" name="firstname"></li></br>
+<li>Email: <input type="text" name="e-mail"></li></br>
+<li>Sexo</li>
+<input type="radio" name="feminino">feminino
+<input type="radio" name="masculino">masculino
+<li>Endereço: <input type="text" name="endereço"></li></br>
+<li>Número: <input type="text" name="número"></li></br>
+<li>Cidade: <input type="text" name="cidade"></li></br>
+<li>Estado:</li>
+<select name="select">
+<option value="selecionar estado">selecionar estado </option> 
+
+<option value="bahia">bahia </option> 
+
+   </select></br>
+<input type="submit" name="acao" value="gravar"></br>
+</ul>
+ 	</body>
+</html>
