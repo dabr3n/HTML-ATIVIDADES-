@@ -24,8 +24,9 @@
             <select name ="select">
                 <option value="selecionar">selecionar</option>
                 <option value="medicina">medicina</option><br>
-            </select>
-            
+            </select></br>
+            Código do Funcionário: <input type="text">
+
         </fieldset><br>
             <input type="submit" name="acao" value= "Incluir Funcionários"><br>
     </form> 
