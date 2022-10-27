@@ -1,0 +1,61 @@
+// html cod
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="curriculo.css">
+
+		<title>CURRICULO NARUTO</title>
+</head>
+<body bgcolor="#FFA500">
+
+<h1><strong>Naruto Uzumaki</h1></strong>
+
+<div class="eusou">
+	<h1>Quem eu sou:</h1><br>
+
+	<h2>Sou Naruto Uzumaki, hokage da aldeia da folha,<br></h2>
+	<h2>filho de Minato Namikaze e de Kushina Uzumaki,<br></h2> <h2>esposo de
+Hinata Hyuuga, princesa do byakugan,<br></h2> <h2>melhor amigo de Sasuke Uchiha.</h2><br>
+
+<h1>Formação:</h1><br>
+
+<h2>Academia Ninja de Konoha</h2><br>
+
+<div class="mconqui">
+
+<h1>Minhas conquistas:</h1><br>
+
+<h2>Reuni meu time, fui reconhecido</h2>
+<h2>como heroi na minha aldeia, e me 
+tornei o setimo hokage</h2>
+
+<div class="photo-gallery">
+<img src="narutogay.jpg">
+
+</body>
+
+// css code
+
+body{
+font-family: monospace;
+font-size: big;
+text-align: center;
+}
+
+.eusou{
+
+text-align: left;
+
+
+}
+
+.bgcolor{
+
+background-color: #FFA500;
+
+}
+
+
