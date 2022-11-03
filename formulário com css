@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+    <lang pt-br>
+
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+        <meta charset="UTF-8">
+        <link rel="styleheet"  href="style.css">
+
+        <title>Formulário</title>
+
+    </head>
+
+
+    <style>
+
+        *{
+
+            font-family: 'Oswald', sans-serif;
+        }
+
+        body{
+
+            background: rgb(2,0,36);
+            background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(92,16,190,1) 0%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+
+        }
+
+        .form{
+
+            
+            font-size: 20px;
+            text-align: center;
+        
+           
+        }
+
+        input{
+
+            border-radius: 5px;
+            margin: 6px;
+            width: 225px;
+            text-align: center;
+           
+
+        }
+
+        fieldset{
+
+            width: 285px;
+            height: 245px;
+            border-color: rgb(2,0,36);
+            border-radius: 10px;
+            background-color: azure;
+            align-items: center;
+            
+        }
+
+        button{
+
+            border-radius: 5px;
+            margin: 8px;
+            width: 230px;
+            cursor: pointer;
+            text-align: center;
+
+        }
+
+        h1{
+
+            text-align: center;
+            font-size: 40px;
+        }
+            
+    </style>
+
+
+    <body>
+
+
+        <h1>Cadastro</h1>
+
+
+        <form>
+
+        <div class="form">
+        <fieldset>   
+         Nome:<br>
+         <input type="name" placeholder="escreva seu nome"><br>
+         Telefone: <br> 
+         <input type="name" placeholder="(00)  0000-0000"><br>
+         Email: <br> 
+         <input type="email" placeholder="email"
+
+        </div>
+
+        <button>Enviar</button>
+
+
+
+            </form>
+
+            </fieldset> 
+         
+
+    </body>
