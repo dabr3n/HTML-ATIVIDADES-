@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+
+	<h1>IMC Calculadora</h1>
+
+	<form name="frmIMC">
+
+		<input type="text" name="txtPeso" placeholder="Peso">
+		<p><input type="text" name="txtAltura" placeholder="Altura"></p>
+		<input type="button" value="Calcular" onclick="calcular()">
+		<input type="reset" value="limpar">
+		<p><input type="text" name="txtIMC" placeholder="Resultado" disabled></p>
+
+	</form>
+
+
+	<img src="foto1.png" alt = photo id="photo">
+
+
+
+	<script src="imc.js"></script>
+
+
+let peso, altura, media
+
+function calcular(){
+
+	peso = Number(frmIMC.txtPeso.value.replace(",","."))
+	altura = Number(frmIMC.txtAltura.value.replace(",","."))
+	media = (peso/(altura*altura))
+	frmIMC.txtIMC.value = media.toFixed(2)
+
+	if (media<17){
+
+		document.getElementById('photo').src = 'foto2.png'
+
+	}
+
+	else if (media>=17 && media <18.5) {
+
+		document.getElementById('photo').src = 'foto3.png'
+
+
+	}
+
+	else if (media>= 18.5 && media < 25){
+
+		document.getElementById('photo').src = 'foto4.png'
+	}
+
+
+	else if (media>= 25 && media <30) {
+
+
+		document.getElementById('photo').scr= 'foto5.png'
+
+
+
+
+	}
+
+	else if (media>= 30 && media <35) {
+
+		document.getElementById('photo').scr= 'foto6.png'
+
+
+
+	}
+
+	
+
+	}
+
+
+	
+
+
+
+
+
+
+
+</body>
+</html>
